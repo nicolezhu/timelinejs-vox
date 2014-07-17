@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Vox.com TimelineJS</title>
+		<meta charset="utf-8">
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <meta name="apple-touch-fullscreen" content="yes">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	    <script type="text/javascript" src="js/jquery.min.js"></script>
+	    <script type="text/javascript" src="js/embed.js"></script>
+	</head>
+
+	<body>
+		<h1><a href="http://timeline.knightlab.com/" target="_blank">TimelineJS</a> for Vox.com</h1>
+		<h5>Create your spreadsheet</h5>
+		<p>Build a new Google Spreadsheet using the <a href="https://drive.google.com/previewtemplate?id=0AppSVxABhnltdEhzQjQ4MlpOaldjTmZLclQxQWFTOUE&mode=public" target="_blank">TimelineJS Template</a>. Once you're done editing, publish the spreadsheet to the web <b>(File > Publish to the Web > Start Publishing)</b>. Refer to Knight Lab's <a href="http://timeline.knightlab.com" target="_blank">TimelineJS site</a> for more information.</p>
+		<h5>Enter your spreadsheet</h5>
+		<p>Copy and paste your spreadsheet's URL here: <input type="text" id="url" value="https://docs.google.com/spreadsheet/pub?key=0Agl_Dv6iEbDadHdKcHlHcTB5bzhvbF9iTWwyMmJHdkE&amp;output=html"></p>
+
+		<div class="embed" style="margin-top: 30px; margin-bottom: 60px;">
+		    <h5>Generate, copy and paste this code into the 'HTML View' in Chorus</h5>
+		    <center><p><button id="build" onclick="embed()">Generate your quiz</button><p>
+		    <p><textarea type="text" name="embedcode" id="embedcode" style="height: 150px; overflow:auto;"></textarea></center></p>
+		</div>
+	</body>
+</html>
